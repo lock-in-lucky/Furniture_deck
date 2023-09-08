@@ -1,0 +1,38 @@
+* {
+		margin: 0 auto;
+	}
+
+	table {
+		width: 80%;
+		text-align: center;
+
+	}
+
+	.na1,
+	.na3 {
+		width: 9%;
+		height: 20%;
+	}
+
+	.na2 {
+		text-align: center;
+		height: 40%;
+		width: 40%;
+	}
+
+	.na2:hover {
+		border: 1px solid red;
+	}
+
+	.c1,
+	.c2 {
+		width: 10%;
+		height: 80%;
+		line-height: 80%;
+		color: orange;
+		font-size: 25px;
+	}
+
+	.divdi {
+		margin-right: 100px;
+	}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>program</display-name>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.cc.setvlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.cc.setvlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ShopCar</servlet-name>
+		<servlet-class>com.cc.setvlet.CarServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShopCar</servlet-name>
+		<url-pattern>/ShopCar</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Shopping</servlet-name>
+		<servlet-class>com.cc.setvlet.DetailsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Shopping</servlet-name>
+		<url-pattern>/Shopping</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>AddShopCar</servlet-name>
+		<servlet-class>com.cc.setvlet.AddShopCar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddShopCar</servlet-name>
+		<url-pattern>/AddShopCar</url-pattern>
+	</servlet-mapping>
+</web-app>
